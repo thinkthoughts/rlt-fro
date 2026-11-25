@@ -1,0 +1,89 @@
+[
+  {
+    "id": "rlt-qec-001b",
+    "title": "RLT-QEC-001b",
+    "group": "Binary algebra and certificate verification",
+    "project": "RLT-QEC-001",
+    "status": "audit pending",
+    "summary": "Develop exact GF(2) verification primitives. The first target is the weight-8 base logical floor, not the full Bravyi360 distance-24 theorem. Documentation self-audit A1–A8 was reported at a3daea2; independent review is pending.",
+    "repository": "https://github.com/thinkthoughts/rlt",
+    "links": [
+      {
+        "label": "QEC specification branch",
+        "url": "https://github.com/thinkthoughts/rlt/tree/rlt-qec-001"
+      },
+      {
+        "label": "Quantum research fork",
+        "url": "https://github.com/thinkthoughts/bb-distance-lean"
+      }
+    ],
+    "rlt_development": [
+      "GF2-01 — Binary field arithmetic",
+      "GF2-02 — Finite group convolution",
+      "GF2-03 — Boundary operator composition",
+      "GF2-04 — Kernel and image membership",
+      "GF2-05 — Hamming weight",
+      "GF2-06 — Finite enumeration completeness"
+    ],
+    "next": "Fresh independent documentation audit. Then 002a low-weight census, 002b boundary witnesses, and 002c full weight-ten census. Distinguish R, V and K; preserve the kernel."
+  },
+  {
+    "id": "rlt-alg-001",
+    "title": "RLT-ALG-001",
+    "group": "Natural number arithmetic",
+    "status": "proposed",
+    "summary": "Reusable arithmetic theorem dependencies identified in number theory investigations. Include exact nonzero premises for multiplicative cancellation and explicit additive commutativity dependencies.",
+    "repository": "https://github.com/thinkthoughts/rlt",
+    "rlt_development": [
+      "ALG-02 — Additive commutativity",
+      "ALG-07 — MUL-CANCEL-NONZERO"
+    ],
+    "next": "Reconcile the seven reported dependencies against the registered specifications and current implementation before assigning work."
+  },
+  {
+    "id": "rlt-prover-002",
+    "title": "RLT-PROVER-002",
+    "group": "Registered definitions and theorem discovery",
+    "status": "review current state",
+    "summary": "Extend bounded proof search through registered definitions and reusable theorem dependencies without enlarging the trusted kernel unnecessarily.",
+    "repository": "https://github.com/thinkthoughts/rlt",
+    "next": "Review current merged capabilities and remaining theorem-discovery obligations before setting the next implementation milestone."
+  },
+  {
+    "id": "rlt-agent-001",
+    "title": "RLT-AGENT-001",
+    "group": "Agent-readable verification",
+    "status": "proposed",
+    "summary": "A submit-claim / receive-audit interface for independently checkable research records, with explicit sources, assumptions and verdicts.",
+    "repository": "https://github.com/thinkthoughts/rlt",
+    "next": "Specify interface and certificate correspondence; distinguish available checks from the proposed Lean bridge."
+  },
+  {
+    "id": "rlt-numerical-correspondence",
+    "title": "Numerical correspondence",
+    "group": "Exact and floating-point arithmetic",
+    "status": "proposed",
+    "summary": "KL divergence and attention-kernel research motivate distinguishing exact mathematical relationships from implementation-dependent numerical behavior.",
+    "links": [
+      {
+        "label": "Research discovery register",
+        "url": "https://rlt-fro.now/arxiv/"
+      }
+    ],
+    "next": "Select a minimal exact-versus-floating-point claim and register its verification obligations."
+  },
+  {
+    "id": "rlt-evidence-conventions",
+    "title": "Evidence and correspondence conventions",
+    "group": "Specification Grammar",
+    "status": "proposed",
+    "summary": "QEC audit findings motivate exact coordinate conventions, dependency closure, declaration-specific axiom inventories, data provenance, and implication-versus-equivalence fidelity.",
+    "repository": "https://github.com/thinkthoughts/specification-grammar",
+    "rlt_development": [
+      "R/V/K evidence classifications",
+      "Source and coordinate correspondence",
+      "Manifest consistency"
+    ],
+    "next": "Review these proposed conventions across research programs before registering them as shared specifications."
+  }
+]

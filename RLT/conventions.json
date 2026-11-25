@@ -1,0 +1,5 @@
+[
+  {"id":"R","title":"Independent computational reproduction","summary":"Recompute the result independently.","requirement":"Separately written code recomputes the stated result. Record inputs, exact arithmetic and the scope of reproduction."},
+  {"id":"V","title":"Independent certificate verification","summary":"Verify validity and completeness.","requirement":"A separate checker verifies the certificate against its exact predicate, including coverage where required by the claim. State the soundness relationship and any unchecked assumptions."},
+  {"id":"K","title":"Kernel-checked mathematical proof","summary":"Identify the kernel, derivation and assumptions.","requirement":"A named kernel checks a derivation of the exact statement. Identify the source, kernel version, assumptions and correspondence to the intended claim."}
+]

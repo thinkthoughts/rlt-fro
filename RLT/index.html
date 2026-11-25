@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reading Level Test — RLT-FRO</title>
+  <link rel="stylesheet" href="../styles.css">
+  <script src="conventions.js" defer></script>
+  <script src="../registers.js" defer></script>
+</head>
+<body data-accent="green" data-source="development.json" data-filter="status">
+<header class="message-board"><div class="board-inner">
+  <a href="/" aria-label="RLT-FRO home" style="color:var(--pink-3);font-size:1.5rem;text-decoration:none">PiπΠ</a>
+  <span class="message"></span><a class="button" href="/about.html">About</a>
+</div></header>
+<main>
+  <p class="intro">Reading Level Test (RLT) is the frontier, open-source formalization tool where leading specifications verify trailing generalizations.</p>
+  <nav aria-label="Research registers">
+    <ul class="repo-list">
+      <li><a href="/" class="white-2">RLT-FRO</a></li>
+      <li><a href="/RLT/" aria-current="page" class="leading">RLT</a></li>
+      <li><a href="/arxiv/" data-accent="green">arXiv</a></li>
+      <li><a href="/github/" data-accent="blue">GitHub</a></li>
+      <li><a href="/dan/" data-accent="pink">Dan</a></li>
+    </ul>
+  </nav>
+  <section class="specification" aria-labelledby="tool-title">
+    <h1 id="tool-title">Reading Level Test</h1>
+    <p class="accent-1">Independent theorem proving and certificate verification</p>
+    <p>RLT preserves the distinction between a human claim, its formal expression, a proved mathematical relationship and its correspondence to evidence. The independent kernel is not dependent on Lean or on a computational certificate generator.</p>
+    <ul class="repo-list"><li><a href="https://github.com/thinkthoughts/rlt">Open-source repository</a></li><li><a href="https://github.com/thinkthoughts/specification-grammar">Specification Grammar</a></li><li><a href="https://formalize.now">Lean correspondence</a></li></ul>
+  </section>
+  <section class="specification" aria-labelledby="evidence-title">
+    <h2 id="evidence-title">Evidence levels</h2>
+    <p class="white-2">Proposed research-wide classifications arising from RLT-QEC-001. Record the claim, scope and checking method with each classification; do not infer a stronger result from a weaker one.</p>
+    <div class="table-wrap"><table><tbody id="conventions"></tbody></table></div>
+    <p id="conventions-status" class="muted" role="status"></p>
+    <p class="muted">A reviewed completeness argument is not by itself an independently executed completeness check. A Lean kernel-checked theorem is not automatically an RLT kernel-checked theorem.</p>
+    <noscript><p><a href="conventions.json">Read the evidence conventions JSON.</a></p></noscript>
+  </section>
+  <section class="specification" aria-labelledby="dev-title">
+    <h2 id="dev-title">Leading development specifications</h2>
+    <p class="white-2">Research findings, reusable capabilities, unresolved obligations and next actions. Proposed targets are not claims of implementation or verification.</p>
+    <div><label for="search">Search</label> <input id="search" type="search" placeholder="Search development" style="font:inherit;background:var(--surface);color:var(--white-1);border:1px solid var(--border);padding:.35rem;max-width:100%"> <label for="filter">Filter</label> <select id="filter" style="font:inherit;background:var(--surface);color:var(--white-1);padding:.35rem"><option value="">All</option></select></div>
+    <p id="count" class="muted" role="status"></p><div id="records"></div>
+    <noscript><p><a href="development.json">Read the development register JSON.</a></p></noscript>
+  </section>
+</main>
+<footer><a href="conventions.json">Conventions JSON</a><a href="development.json">Development JSON</a><a href="/style-guide.html">Style guide</a></footer>
+</body></html>
