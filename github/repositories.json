@@ -1,0 +1,108 @@
+[
+  {
+    "id": "ucla-roms",
+    "title": "UCLA-ROMS",
+    "group": "FRO",
+    "status": "research initiated",
+    "summary": "Ocean modeling and numerical verification.",
+    "fork": "https://github.com/thinkthoughts/ucla-roms",
+    "links": [
+      {
+        "label": "[C]Worthy research overview",
+        "url": "https://carbondioxide.now/cworthy"
+      }
+    ],
+    "next": "Review existing audit records and identify reusable RLT obligations."
+  },
+  {
+    "id": "roms-tools",
+    "title": "ROMS-Tools",
+    "group": "FRO",
+    "status": "research initiated",
+    "summary": "Scientific data transformations.",
+    "fork": "https://github.com/thinkthoughts/roms-tools",
+    "links": [
+      {
+        "label": "[C]Worthy research overview",
+        "url": "https://carbondioxide.now/cworthy"
+      }
+    ],
+    "next": "Review existing audit records and identify reusable RLT obligations."
+  },
+  {
+    "id": "C-Star",
+    "title": "C-Star",
+    "group": "FRO",
+    "status": "research initiated",
+    "summary": "Ocean modeling infrastructure.",
+    "fork": "https://github.com/thinkthoughts/C-Star",
+    "links": [
+      {
+        "label": "[C]Worthy research overview",
+        "url": "https://carbondioxide.now/cworthy"
+      }
+    ],
+    "next": "Review existing audit records and identify reusable RLT obligations."
+  },
+  {
+    "id": "bb-distance-lean",
+    "title": "bb-distance-lean",
+    "group": "Independent",
+    "status": "specifications registered on branch",
+    "summary": "Weight-8 base logical floor; census completeness must be independently established.",
+    "upstream": "https://github.com/QECLean/bb-distance-lean",
+    "fork": "https://github.com/thinkthoughts/bb-distance-lean",
+    "project": "RLT-QEC-001",
+    "source_pin": "a83cafad4d041427af4ddb54085493d3f9dd02d2",
+    "links": [
+      {
+        "label": "Specification branch",
+        "url": "https://github.com/thinkthoughts/rlt/blob/rlt-qec-001/docs/RLT-QEC-001.md"
+      }
+    ],
+    "rlt_development": [
+      "GF2-01–06"
+    ],
+    "next": "Audit ac1d378; independently enumerate cycles of weight less than eight."
+  },
+  {
+    "id": "intelligenceregulation",
+    "title": "IntelligenceRegulation",
+    "group": "Independent",
+    "status": "partial verification",
+    "summary": "Lean build and run-level replay reported; top-level ProductionReady remains unproved.",
+    "fork": "https://github.com/thinkthoughts/IntelligenceRegulation",
+    "rlt_development": [
+      "Cryptographic certificate verification"
+    ],
+    "next": "Review VR-003/004 and remaining R1 obligations."
+  },
+  {
+    "id": "deepseek-prover-v2",
+    "title": "DeepSeek-Prover-V2",
+    "group": "Independent",
+    "status": "verification reported",
+    "summary": "GDT port reported 39/39 theorems verified.",
+    "next": "Recover exact repository and evidence links."
+  },
+  {
+    "id": "deepinfer",
+    "title": "DeepInfer",
+    "group": "Independent",
+    "status": "verification reported",
+    "summary": "SWA store slot verification reported: four theorems and 18 tests.",
+    "next": "Recover RPI-DI-001 evidence and repository links."
+  },
+  {
+    "id": "mathlib4",
+    "title": "mathlib4",
+    "group": "Independent",
+    "status": "contribution under review",
+    "summary": "Totient product theorem review suggested generalizing to ArithmeticFunction.IsMultiplicative.",
+    "upstream": "https://github.com/leanprover-community/mathlib4",
+    "contribution_urls": [
+      "https://github.com/leanprover-community/mathlib4/pull/45343"
+    ],
+    "next": "Assess general multiplicative theorem."
+  }
+]

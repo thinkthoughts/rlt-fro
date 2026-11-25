@@ -1,0 +1,97 @@
+[
+  {
+    "id": "rlt",
+    "title": "Reading Level Test",
+    "group": "Internal",
+    "status": "active",
+    "summary": "Independent theorem prover and certificate verification.",
+    "repository": "https://github.com/thinkthoughts/rlt",
+    "leading_specifications": [
+      "RLT-QEC-001b",
+      "RLT-ALG-001"
+    ],
+    "rlt_development": [
+      "Registered definitions and theorem discovery",
+      "Binary algebra",
+      "Natural number arithmetic"
+    ],
+    "next": "Audit QEC documentation and prioritize reusable primitives."
+  },
+  {
+    "id": "specification-grammar",
+    "title": "Specification Grammar",
+    "group": "Internal",
+    "status": "proposed",
+    "summary": "Shared language for registered specifications.",
+    "repository": "https://github.com/thinkthoughts/specification-grammar",
+    "next": "Review registration conventions across research projects."
+  },
+  {
+    "id": "rlt-fro",
+    "title": "RLT-FRO",
+    "group": "Internal",
+    "status": "active",
+    "summary": "Research publication and continuity.",
+    "repository": "https://github.com/thinkthoughts/rlt-fro",
+    "next": "Maintain research registers and project assessments."
+  },
+  {
+    "id": "math29",
+    "title": "math29",
+    "group": "Internal",
+    "status": "maintained",
+    "summary": "Modular arithmetic and mathematical foundations.",
+    "repository": "https://github.com/thinkthoughts/math29",
+    "next": "Review leading mathematical specifications."
+  },
+  {
+    "id": "gdt",
+    "title": "GDT",
+    "group": "Internal",
+    "status": "active",
+    "summary": "Divisor relationships and number theory.",
+    "links": [
+      {
+        "label": "Translate Pi",
+        "url": "https://translatepi.ai"
+      }
+    ],
+    "next": "Register reusable arithmetic dependencies."
+  },
+  {
+    "id": "translatepi",
+    "title": "Translate Pi",
+    "group": "Internal",
+    "status": "maintained",
+    "summary": "PiπΠ and structural mathematical research.",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://translatepi.ai"
+      }
+    ],
+    "next": "Review RH reformulation and mathematical research records."
+  },
+  {
+    "id": "repairearth",
+    "title": "RepairEarth",
+    "group": "Internal",
+    "status": "proposed",
+    "summary": "Sustainable data center engineering specifications.",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://repairearth.ai"
+      }
+    ],
+    "next": "Identify initial verifiable engineering claims."
+  },
+  {
+    "id": "engineering-statements",
+    "title": "Engineering Statements",
+    "group": "Internal",
+    "status": "proposed",
+    "summary": "Engineering specification and evidence registration.",
+    "next": "Recover repository identity and JSON conventions."
+  }
+]

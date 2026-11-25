@@ -1,0 +1,133 @@
+[
+  {
+    "id": "NT-investigation",
+    "title": "Number theory — arithmetic dependencies",
+    "group": "math.NT",
+    "status": "investigation",
+    "summary": "Investigations identified additive commutativity and nonzero multiplication cancellation as dependencies. Individual paper correspondence remains to be checked.",
+    "rlt_development": [
+      "RLT-ALG-001",
+      "MUL-CANCEL-NONZERO"
+    ],
+    "next": "Associate individual paper and outreach URLs; review arithmetic dependency proofs."
+  },
+  {
+    "id": "arxiv-2611.27825",
+    "title": "arXiv:2611.27825",
+    "group": "math.NT",
+    "status": "source review pending",
+    "summary": "Candidate identifier recovered from prior discussion; title, subject and correspondence not independently confirmed.",
+    "arxiv_id": "2611.27825",
+    "tweet_urls": [],
+    "grokbait_url": null
+  },
+  {
+    "id": "arxiv-2611.27882",
+    "title": "arXiv:2611.27882",
+    "group": "math.NT",
+    "status": "source review pending",
+    "summary": "Candidate identifier recovered from prior discussion; title, subject and correspondence not independently confirmed.",
+    "arxiv_id": "2611.27882",
+    "tweet_urls": [],
+    "grokbait_url": null
+  },
+  {
+    "id": "arxiv-2611.27574",
+    "title": "arXiv:2611.27574",
+    "group": "math.NT",
+    "status": "source review pending",
+    "summary": "Candidate identifier recovered from prior discussion; title, subject and correspondence not independently confirmed.",
+    "arxiv_id": "2611.27574",
+    "tweet_urls": [],
+    "grokbait_url": null
+  },
+  {
+    "id": "arxiv-2611.27627",
+    "title": "arXiv:2611.27627",
+    "group": "math.NT",
+    "status": "source review pending",
+    "summary": "Candidate identifier recovered from prior discussion; title, subject and correspondence not independently confirmed.",
+    "arxiv_id": "2611.27627",
+    "tweet_urls": [],
+    "grokbait_url": null
+  },
+  {
+    "id": "arxiv-2611.27775",
+    "title": "arXiv:2611.27775",
+    "group": "math.NT",
+    "status": "source review pending",
+    "summary": "Candidate identifier recovered from prior discussion; title, subject and correspondence not independently confirmed.",
+    "arxiv_id": "2611.27775",
+    "tweet_urls": [],
+    "grokbait_url": null
+  },
+  {
+    "id": "arxiv-2611.26738",
+    "title": "arXiv:2611.26738",
+    "group": "math.NT",
+    "status": "source review pending",
+    "summary": "Candidate identifier recovered from prior discussion; title, subject and correspondence not independently confirmed.",
+    "arxiv_id": "2611.26738",
+    "tweet_urls": [],
+    "grokbait_url": null
+  },
+  {
+    "id": "arxiv-2611.26934",
+    "title": "arXiv:2611.26934",
+    "group": "math.NT",
+    "status": "source review pending",
+    "summary": "Candidate identifier recovered from prior discussion; title, subject and correspondence not independently confirmed.",
+    "arxiv_id": "2611.26934",
+    "tweet_urls": [],
+    "grokbait_url": null
+  },
+  {
+    "id": "arxiv-2611.27040",
+    "title": "arXiv:2611.27040",
+    "group": "math.NT",
+    "status": "source review pending",
+    "summary": "Candidate identifier recovered from prior discussion; title, subject and correspondence not independently confirmed.",
+    "arxiv_id": "2611.27040",
+    "tweet_urls": [],
+    "grokbait_url": null
+  },
+  {
+    "id": "QEC-paper",
+    "title": "QECLean / Bravyi360",
+    "group": "quant-ph",
+    "status": "specifications registered on branch",
+    "summary": "Independent verification of the weight-8 base logical floor is the initial target, distinct from the distance-24 result.",
+    "arxiv_id": "2611.21236",
+    "project": "RLT-QEC-001",
+    "tweet_urls": [],
+    "grokbait_url": null,
+    "rlt_development": [
+      "GF2-01–06"
+    ],
+    "next": "Confirm paper identity and audit specification branch."
+  },
+  {
+    "id": "KL-investigation",
+    "title": "KL divergence — numerical correspondence",
+    "group": "cs.LG",
+    "status": "investigation",
+    "summary": "Exact Gibbs inequality versus floating-point cancellation; paper identifier not yet recorded.",
+    "project": "RLT-KL-001",
+    "rlt_development": [
+      "Exact arithmetic and floating-point correspondence"
+    ]
+  },
+  {
+    "id": "attention-paper",
+    "title": "Attention kernel sensitivity",
+    "group": "cs.LG",
+    "status": "investigation",
+    "summary": "Reported collapse rates depend on attention backend; distinguish exact specification from numerical trajectory evidence.",
+    "arxiv_id": "2611.21596",
+    "tweet_urls": [],
+    "grokbait_url": null,
+    "rlt_development": [
+      "ATTN-01–05"
+    ]
+  }
+]
