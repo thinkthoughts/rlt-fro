@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "message": {
+    "id": "fro-definition-001",
+    "text": "A FRO is a Focused Research Organization."
+  },
+  "entries": [
+    {
+      "id": "cworthy",
+      "title": "[C]Worthy",
+      "accent": "green",
+      "subtitle": "Formalization and verification in ocean carbon science",
+      "description": "Independent verification research for open-source ocean modeling and marine carbon dioxide removal infrastructure.",
+      "url": "https://carbondioxide.now/cworthy",
+      "status": "Research initiated; independent verification results not yet reported here.",
+      "repositories": [
+        {
+          "name": "UCLA-ROMS",
+          "url": "https://github.com/thinkthoughts/ucla-roms"
+        },
+        {
+          "name": "ROMS-Tools",
+          "url": "https://github.com/thinkthoughts/roms-tools"
+        },
+        {
+          "name": "C-Star",
+          "url": "https://github.com/thinkthoughts/C-Star"
+        }
+      ]
+    }
+  ]
+}
