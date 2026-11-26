@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html data-theme="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="dark" name="color-scheme"/>
+<meta content="formalize.now — RLT (Reading Level Test), an independent theorem prover with checked proof certificates, theorem discovery, registered definitions, Lean correspondence, and source-linked research audits." name="description"/>
+<title>The Frontier Theorem Prover: RLT — formalize.now</title>
+
+<link href="styles/site.css" rel="stylesheet"/><link href="styles/home.css" rel="stylesheet"/></head>
+<body class="home">
+<a class="skip" href="#main">Skip to content</a>
+<header class="header">
+<div class="shell header-inner">
+
+<nav aria-label="Main navigation" class="nav navlinks">
+<a href="#rlt">RLT progress</a>
+<a href="/rlt/">Technical RLT</a>
+<a href="/rlt-audits/">Audits</a>
+<a href="#research">Research</a>
+<button aria-label="Toggle dark mode" aria-pressed="false" class="theme-toggle" id="theme-toggle" type="button">◐ Theme</button></nav>
+<a aria-label="formalize.now home" class="brand" href="/">formalize<span>.now</span></a></div>
+</header>
+<main class="shell" id="main">
+<section aria-labelledby="main-title" class="hero">
+<span class="kicker">Independent theorem proving &amp; specification research</span>
+<h1 id="main-title">The Frontier Theorem Prover: <span class="accent">RLT</span></h1>
+<p class="hero-subtitle">Formal proof. Readable specifications. Evidence of reality.</p>
+<p class="hero-body"><strong>Reading Level Test (RLT)</strong> is an independent first-order theorem prover. Its small Rust kernel checks derivations, while bounded proof search discovers candidate theorems and produces replayable certificates. Registered function definitions and selected Lean 4 correspondence checks extend the work while preserving the kernel’s trust boundary.</p>
+<p class="hero-body">RLT connects written expressions, conventions, checked mathematical relationships, and source evidence. The research question is correspondence: which claims have established proofs, which interpretations have been recorded, and which physical claims have supporting measurements?</p>
+<div class="actions">
+<a class="primary" href="/rlt/">Explore the RLT prover →</a>
+<a class="secondary" href="https://github.com/thinkthoughts/rlt">Source &amp; certificates</a>
+<a class="secondary" href="#roadmap">Development roadmap</a>
+</div>
+</section>
+<section aria-labelledby="rlt-title" class="section" id="rlt">
+<div class="section-head"><h2 id="rlt-title">RLT · Verified progress</h2><a class="text-link" href="/rlt/">Technical overview →</a></div>
+<p class="section-desc">From a small independently checking kernel to bounded theorem discovery, registered definitions, and replayable evidence.</p>
+<div class="rlt-feature">
+<div>
+<span class="eyebrow">RLT-PROVER-001 + RLT-PROVER-002 · Completed</span>
+<h3>Proof search, discoveries, and registered definitions</h3>
+<p>RLT builds proof certificates using bounded search, then independently replays every candidate through its unchanged proof kernel. Definition expansion connects readable expressions with the statements that the kernel checks.</p>
+<p>The latest completed prover milestone adds registered function definitions, selected declaration-level Lean correspondence checks, and an independent Lean kernel replay. Mathematical results and source correspondence remain separately inspectable.</p>
+<a class="text-link" href="/rlt/">See the theorems and verification method →</a>
+<a class="text-link" href="https://github.com/thinkthoughts/rlt/tree/main/docs">Review milestone audits →</a>
+</div>
+<div aria-label="Reported verification results" class="feature-points">
+<h4>RLT-PROVER-002 · merged main <code>c9e347b</code></h4>
+<dl>
+<div class="item"><dt>Release-suite tests passed</dt><dd>387</dd></div>
+<div class="item"><dt>Discovery certificates accepted</dt><dd>126</dd></div>
+<div class="item"><dt>Selected proof goals accepted</dt><dd>7 / 7</dd></div>
+</dl>
+<p class="fine">Reported from the release audit at the pinned commit, including Lean correspondence and kernel-replay gates. Proof search is bounded; mathematical and physical correspondence have distinct verification obligations.</p>
+</div>
+</div>
+</section>
+<section aria-labelledby="roadmap-title" class="section" id="roadmap">
+<div class="section-head"><h2 id="roadmap-title">Development roadmap</h2><a class="text-link" href="https://github.com/thinkthoughts/rlt/tree/main/docs">Repository documentation →</a></div>
+<p class="section-desc">Completed prover milestones establish the foundation. The next work makes definitions easier to cite and claim audits easier to reproduce.</p>
+<div class="milestones">
+<div class="milestone"><span class="eyebrow">Complete · 001</span><h3>Proof search and theorem discovery</h3><p>Bounded proof generation, kernel replay, and deterministic discovery records.</p></div>
+<div class="milestone"><span class="eyebrow">Complete · 002</span><h3>Definitions and Lean correspondence</h3><p>Registered functions, Lean declaration checks, and kernel replay of selected companion theorems.</p></div>
+<div class="milestone"><span class="eyebrow">Architecture assessment</span><h3>RLT-ROADMAP-001</h3><p>Inventory of the implementation, original mathematics, trust boundaries, and next development dependencies.</p></div>
+<div class="milestone"><span class="eyebrow">Next · RLT-DEF-001</span><h3>Canonical definition registry</h3><p>Pinned definition identities, registered predicates, and more precise discovery reporting.</p></div>
+<div class="milestone"><span class="eyebrow">Planned · RLT-AGENT-001</span><h3>Submit a claim, receive an audit</h3><p>A local versioned JSON interface for certificates, sources, assumptions, and correspondence status.</p></div>
+<div class="milestone"><span class="eyebrow">Research</span><h3>Mathematical correspondence</h3><p>Modulo 30, Triplet N, PiπΠ, and <a class="text-link" href="https://translatepi.ai/RH">RH</a> as separately scoped research and formalization work.</p></div>
+</div>
+</section>
+<section aria-labelledby="audits-title" class="section" id="audits">
+<div class="section-head"><h2 id="audits-title">RLT Audits</h2><a class="text-link" href="/rlt-audits/">All audits →</a></div>
+<p class="section-desc">Source-linked readings of human claims alongside their formal statements, proof dependencies, implementation evidence, and unresolved conditions.</p>
+<article class="audit">
+<div>
+<span class="eyebrow">First case study · AI verification</span>
+<h3>IntelligenceRegulation</h3>
+<p>“How can we develop intelligence at a manageable rate worldwide?” We begin with the project's own question, then distinguish claims about future risk from what its private-inference formalization and implementation evidence actually establish.</p>
+<p>The audit records independently replayed Lean theorems, proof assumptions, Rust fixture reproduction, and the conditions still required for production-readiness claims.</p>
+<a class="text-link" href="/intelligenceregulation/">Read the IntelligenceRegulation audit →</a>
+</div>
+<div class="evidence">
+<h4>What has been checked</h4>
+<div class="metric"><span>Individual Lean module replays</span><b>496 / 496</b></div>
+<div class="metric"><span>Top-level theorem exports accepted by nanoda</span><b>4 / 4</b></div>
+<div class="metric"><span>Axiom-removal controls</span><b>4 / 4</b></div>
+<p class="fine">Formal validity is conditional on stated premises. These checks do not establish unconditional deployment security.</p>
+</div>
+</article>
+<article class="audit">
+<div>
+<span class="eyebrow">Scientific software · Independent RLT research</span>
+<h3>[C]Worthy · Ocean carbon removal</h3>
+<p>RLT research examines mathematical claims, source correspondence, and reproducibility across [C]Worthy's C-Star, ROMS-Tools, and UCLA-ROMS software. The work connects formal verification with the calculations used to study ocean carbon dioxide removal.</p>
+<p>Source-pinned audits have identified grid-partitioning discrepancies, CO₂ unit-handling questions, and a carbon-uptake calculation requiring scientific review. Proposed corrections, regression tests, and proof records are undergoing independent verification.</p>
+<a class="text-link" href="https://carbondioxide.now/C/index.html">Read the [C]Worthy research progress report →</a>
+</div>
+<div class="evidence">
+<h4>Research progress</h4>
+<div class="metric"><span>Initial source audit</span><b>001</b></div>
+<div class="metric"><span>Development investigations</span><b>002–006</b></div>
+<div class="metric"><span>Independent verification</span><b>In progress</b></div>
+<p class="fine">Independent research using public source repositories. Findings and proposed patches are recorded with their evidence and review status.</p>
+</div>
+</article>
+</section>
+<section aria-labelledby="research-title" class="section" id="research">
+<div class="section-head"><h2 id="research-title">Research &amp; verification</h2></div>
+<p class="section-desc">Selected developments in formal mathematics and computing, organized by what they establish rather than publication date.</p>
+<div class="projects">
+<article class="project">
+<span class="eyebrow">Mathematics · RH · PiπΠ</span>
+<h3>Riemann Hypothesis · Invariance and Projection</h3>
+<p>Research into the Riemann Hypothesis through mathematical invariance, projection, and correspondence between representations. The work develops explicit definitions and formal relationships for independent examination.</p>
+<a class="text-link" href="https://translatepi.ai/RH">Explore the RH research →</a>
+</article>
+<article class="project">
+<span class="eyebrow">Arithmetic · Lean &amp; RLT</span>
+<h3>General Divisor Theorem</h3>
+<p>Admissible residues, minimal periods, totient counts, and independent arithmetic specifications provide concrete cases for comparing proof systems and written mathematical meaning.</p>
+<a class="text-link" href="/gdt.pdf">Read the GDT paper →</a>
+</article>
+<article class="project">
+<span class="eyebrow">Complexity theory · Lean</span>
+<h3>Math 378 and ETH correspondence</h3>
+<p>Kernel-checked formal results and a bridge between separately defined complexity-theory statements. The meaning and dependencies of each claim matter alongside the proof term.</p>
+<a class="text-link" href="/378/">Read the verification record →</a>
+</article>
+<article class="project">
+<span class="eyebrow">AI architectures · Lean</span>
+<h3>AutomLR</h3>
+<p>Formal extensions concerning attention-head expressivity and symmetric Boolean functions, with reproducible statements and proof obligations.</p>
+<a class="text-link" href="/automlr/">Explore the formalization →</a>
+</article>
+<article class="project">
+<span class="eyebrow">AI &amp; memory · Lean</span>
+<h3>Dense Associative Memory</h3>
+<p>Conditional mean-zero cross-talk and one-flip signal results in a formal model. Mathematical guarantees are distinguished from claims about measured memory systems.</p>
+<a class="text-link" href="https://github.com/thinkthoughts/lean-dense-associative-memory">Inspect the source →</a>
+</article>
+</div>
+</section>
+<section aria-labelledby="method-title" class="section">
+<div class="section-head"><h2 id="method-title">From proof to physical correspondence</h2></div>
+<p class="section-desc">The research has a common discipline: keep a written claim, its formal consequences, and evidence about the world distinguishable and linked.</p>
+<div class="method">
+<div class="method-item"><strong>1. Read the claim</strong><p>Preserve the exact expression, conventions, scope, and assumptions. Identify what is being asserted, not merely what sounds plausible.</p></div>
+<div class="method-item"><strong>2. Check the relationship</strong><p>Use RLT or Lean within its respective logic. Record the theorem, proof dependencies, axioms, and source revision.</p></div>
+<div class="method-item"><strong>3. Examine the evidence</strong><p>For physical claims, ask for measurements, methods, units, uncertainty, and implementation correspondence. Formal proof alone is not a sensor.</p></div>
+</div>
+</section>
+<section aria-labelledby="future-title" class="section">
+<div class="future">
+<span class="eyebrow">Future coordination · physical specifications</span>
+<h2 id="future-title">Carbon dioxide, matter, and clean datacenters</h2>
+<p>The next meeting point for technical and nontechnical RLT is <strong>carbondioxide.now</strong>. Its proposed subject is accurate physical claims: for example, atoms in a measured molecule are understood through physical evidence and chemical relationships, rather than an invented origin story. Energy use, emissions, and datacenter operations likewise require measurements and clearly stated boundaries.</p>
+<p>This research direction will develop physical specifications and clean-datacenter audits as evidence and measured boundaries become available.</p>
+<div class="small-link">
+<a href="/rlt/">Technical RLT →</a>
+<a href="/rlt-audits/">Existing audits →</a>
+</div>
+</div>
+</section>
+</main>
+<footer>
+<div class="shell">
+<span>formalize.now · RLT theorem proving and source-linked research</span>
+<div class="footer-links"><a href="/rlt/">RLT</a><a href="#roadmap">Roadmap</a><a href="/rlt-audits/">RLT Audits</a><a href="#research">Research</a></div>
+</div>
+</footer>
+<script>(function(){const b=document.getElementById('theme-toggle');const root=document.documentElement;function set(t){root.dataset.theme=t;b.setAttribute('aria-pressed',String(t==='dark'));b.textContent=t==='dark'?'☼ Light':'◐ Dark'}let start='light';try{const saved=localStorage.getItem('rlt-theme');if(saved==='light'||saved==='dark')start=saved}catch(e){}set(start);b.addEventListener('click',function(){const next=root.dataset.theme==='dark'?'light':'dark';set(next);try{localStorage.setItem('rlt-theme',next)}catch(e){}})})();</script></body>
+</html>
