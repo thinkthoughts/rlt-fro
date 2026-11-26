@@ -1,1 +1,92 @@
-<html></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QECLean — RLT-FRO</title>
+  <meta name="description" content="RLT-FRO independent verification research in quantum error correction: cycle enumeration, boundary witnesses, homology and logical-weight bounds.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="message-board">
+  <div class="board-inner">
+    <div class="message">Quantum Error Correction — RLT-QEC</div>
+    <a class="button" href="../index.html">Research</a>
+  </div>
+</header>
+<main>
+  <a class="brand" href="../index.html" aria-label="RLT-FRO home">PiπΠ</a>
+  <p class="intro">Formalization and verification in quantum error correction.</p>
+
+  <article class="specification" data-accent="green" id="overview">
+    <h2>QECLean</h2>
+    <p class="accent-1">Independent verification of the Bravyi360 development</p>
+    <p>RLT-FRO investigates the mathematical foundations of quantum error-correcting codes through independent computation, machine-checkable certificates and exact correspondence with formal specifications.</p>
+    <p>The research begins with the 90-qubit bivariate bicycle base complex underlying the Bravyi360 construction in QECLean, and the theorem <code>base_logical_floor : baseCover.LogicalFloor 8</code>.</p>
+    <p><a href="https://arxiv.org/abs/2611.21236">Specifying &amp; Verifying Quantum Error-Correcting Codes</a> — Stavan Jain, Nithin Raveendran and Aws Albarghouthi.</p>
+    <p class="white-2">Research repositories</p>
+    <ul class="repo-list">
+      <li><a href="https://github.com/thinkthoughts/rlt">RLT</a></li>
+      <li><a href="https://github.com/QECLean/bb-distance-lean">bb-distance-lean</a></li>
+      <li><a href="https://github.com/Stavan-Jain/QECLean">QECLean</a></li>
+    </ul>
+  </article>
+
+  <article class="specification" data-accent="green" id="results">
+    <h2>Research results</h2>
+    <p class="accent-1">90-qubit base complex · X sector</p>
+    <p>Independent enumeration establishes a census of 46 cycles of weight below 8: the zero vector and 45 cycles of weight 6. The census agrees exactly with the pinned Lean source as a set of binary masks.</p>
+    <ul>
+      <li>46 of 46 boundary witnesses verified.</li>
+      <li>45 boundary-map columns matched index by index with the source.</li>
+      <li>Both boundary maps certified to have rank 41.</li>
+      <li>Homology dimension: k = 90 − 41 − 41 = 8 logical qubits.</li>
+      <li>256 homology classes, including 255 nontrivial classes.</li>
+      <li>A weight-10 nontrivial logical cycle certified by a separating linear functional.</li>
+    </ul>
+    <p class="accent-1">Established minimum logical-weight bounds</p>
+    <p style="font-size:1.5rem">8 ≤ d<sub>X</sub> ≤ 10</p>
+    <p>Every X-sector nontrivial cycle has weight at least 8. The certified weight-10 logical cycle establishes the upper bound.</p>
+    <p class="muted">Evidence levels: lower bound R (reviewed mathematical completeness and reproducible computation); upper bound V (machine-checked certificate). The combined interval inherits level R.</p>
+  </article>
+
+  <article class="specification" data-accent="green" id="specification">
+    <h2>RLT-QEC-001</h2>
+    <p class="accent-1">Registered specification and source correspondence</p>
+    <p>Registers the chain complex over GF(2), coordinate and mask conventions, boundary operators, logical-floor statement, source provenance and evidence classifications.</p>
+    <p><a href="https://github.com/thinkthoughts/rlt/blob/main/docs/RLT-QEC-001.md">Specification</a> · <a href="https://github.com/thinkthoughts/rlt/blob/main/docs/RLT-QEC-001-AUDIT.md">Audit record</a></p>
+    <p class="muted">Accepted and merged.</p>
+  </article>
+
+  <article class="specification" data-accent="green" id="census">
+    <h2>RLT-QEC-002a</h2>
+    <p class="accent-1">Independent low-weight cycle census</p>
+    <p>Two meet-in-the-middle enumeration strategies reproduce the same 46 masks. A separate convolution-based checker verifies cycle validity, weight and translation closure. A reviewed completeness argument establishes exhaustive coverage through weight 7.</p>
+    <p><a href="https://github.com/thinkthoughts/rlt/blob/3da96cd/docs/RLT-QEC-002a.md">Research and audit record</a> · <a href="https://github.com/thinkthoughts/rlt/tree/3da96cd/research/qec-002a">Implementation and evidence</a></p>
+    <p class="muted">Accepted and merged at 3da96cd. Soundness V; completeness R.</p>
+  </article>
+
+  <article class="specification" data-accent="green" id="witnesses">
+    <h2>RLT-QEC-002b</h2>
+    <p class="accent-1">Boundary witnesses and logical-floor correspondence</p>
+    <p>Independent Gaussian elimination constructs boundary witnesses and rank certificates. A separate convolution-based checker verifies the witnesses, the chain condition, rank bounds and the nontrivial logical-cycle certificate. An independently authored GF(2) verification routine confirms the central mathematical certificates.</p>
+    <p><a href="https://github.com/thinkthoughts/rlt/blob/0ecc148/docs/RLT-QEC-002b.md">Research and audit record</a> · <a href="https://github.com/thinkthoughts/rlt/tree/0ecc148/research/qec-002b">Implementation and evidence</a></p>
+    <p class="muted">Accepted and merged at 0ecc148. Boundary witnesses, ranks and upper bound V; logical floor R.</p>
+  </article>
+
+  <article class="specification" data-accent="green" id="next">
+    <h2>RLT-QEC-002c</h2>
+    <p class="accent-1">Extended cycle census and exact X-sector minimum</p>
+    <p>Next research objectives: establish the exact X-sector minimum logical weight and independently enumerate every cycle through weight 10, with exact mask-set correspondence to the pinned source.</p>
+    <p class="muted">Research checkpoint: November 25, 2026.</p>
+  </article>
+</main>
+<footer>
+  <a href="../index.html">RLT-FRO</a>
+  <a href="https://github.com/thinkthoughts/rlt">RLT</a>
+  <a href="https://github.com/thinkthoughts/specification-grammar">Specification Grammar</a>
+  <a href="https://formalize.now">formalize.now</a>
+  <a href="../research.json">Research JSON</a>
+</footer>
+</body>
+</html>
