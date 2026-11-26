@@ -36,6 +36,7 @@
       "description": "Independent verification research for quantum error-correcting codes, including cycle enumeration, boundary witnesses, homology and logical-weight bounds.",
       "url": "/QECLean/",
       "status": "Independent verification results: 90-qubit base complex, 46 verified boundary witnesses, 8 logical qubits, and X-sector minimum logical weight bounded by 8 ≤ dₓ ≤ 10.",
+      "tweet": "https://x.com/Precedent_Vice/status/2125822181150257503",
       "repositories": [
         {
           "name": "RLT",
