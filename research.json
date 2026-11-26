@@ -34,7 +34,7 @@
       "accent": "green",
       "subtitle": "Formalization and verification in quantum error correction",
       "description": "Independent verification research for quantum error-correcting codes, including cycle enumeration, boundary witnesses, homology and logical-weight bounds.",
-      "url": "qec.html",
+      "url": "/QECLean/",
       "status": "Independent verification results: 90-qubit base complex, 46 verified boundary witnesses, 8 logical qubits, and X-sector minimum logical weight bounded by 8 ≤ dₓ ≤ 10.",
       "repositories": [
         {
