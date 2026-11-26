@@ -1,0 +1,112 @@
+[
+  {
+    "id": "qeclean",
+    "title": "QECLean / Bravyi360",
+    "group": "Quantum error correction",
+    "project": "RLT-QEC-001",
+    "status": "Independent finite reproduction reported; Lean replay pending confirmation",
+    "summary": "The base logical floor concerns all cycles of weight below eight in the 90-qubit quotient. Source correspondence audits identify boundary maps, reflected coordinates, census completeness and boundary witnesses. The weight-eight floor is distinct from the full distance-24 result. Subsequent independent finite checks do not by themselves establish a kernel-checked proof.",
+    "upstream": "https://github.com/QECLean/bb-distance-lean",
+    "fork": "https://github.com/thinkthoughts/bb-distance-lean",
+    "source_pin": "a83cafad4d041427af4ddb54085493d3f9dd02d2",
+    "links": [
+      {
+        "label": "QECLean pinned dependency",
+        "url": "https://github.com/Stavan-Jain/QECLean/tree/f51011bd6d1af9e225a19a5d5ff672000f3c9d94"
+      },
+      {
+        "label": "RLT specifications",
+        "url": "https://github.com/thinkthoughts/rlt/blob/rlt-qec-001/docs/RLT-QEC-001.md"
+      }
+    ],
+    "rlt_development": [
+      "GF2-01–06",
+      "Exact mask-set correspondence",
+      "R/V/K evidence classification"
+    ],
+    "next": "Confirm current audit and implementation status, then establish exact Lean declaration and axiom replay evidence."
+  },
+  {
+    "id": "intelligenceregulation",
+    "title": "IntelligenceRegulation",
+    "group": "Cryptography",
+    "status": "Partial Lean verification reported",
+    "summary": "Lean build and run-level checker replay succeeded in earlier work. Full checker replay exceeded VPS memory; the top-level ProductionReady theorem was not established.",
+    "fork": "https://github.com/thinkthoughts/IntelligenceRegulation",
+    "rlt_development": [
+      "Cryptographic certificates",
+      "Declaration-specific axiom inventories"
+    ],
+    "next": "Review VR-003 and VR-004 and remaining proof obligations."
+  },
+  {
+    "id": "gdt",
+    "title": "GDT — Generalized Divisor Theory",
+    "group": "Number theory",
+    "status": "Lean theorem verification reported",
+    "summary": "Earlier GDT work reported 39 of 39 theorems checked in the DeepSeek-Prover-V2 port. This is a research record, not a fresh replay.",
+    "links": [
+      {
+        "label": "Mathematical research",
+        "url": "https://translatepi.ai/"
+      }
+    ],
+    "rlt_development": [
+      "Natural number arithmetic",
+      "Registered theorem dependencies"
+    ],
+    "next": "Record exact source pins and replay evidence."
+  },
+  {
+    "id": "mathlib-totient",
+    "title": "Mathlib — Multiplicative arithmetic functions",
+    "group": "Number theory",
+    "status": "Upstream review",
+    "summary": "A proposed totient product theorem for pairwise coprime factors received a reviewer suggestion to generalize it through ArithmeticFunction.IsMultiplicative.",
+    "contribution_urls": [
+      "https://github.com/leanprover-community/mathlib4/pull/45343"
+    ],
+    "rlt_development": [
+      "Reusable multiplicativity specifications"
+    ],
+    "next": "Assess the generalized statement and its dependencies."
+  },
+  {
+    "id": "rh",
+    "title": "Riemann Hypothesis",
+    "group": "Mathematical correspondence",
+    "status": "Research direction; no proof claim",
+    "summary": "Distinguish the original mathematical statement from formal reformulations, assumptions and verifier acceptance. Investigate independent proof correspondence without presuming that the Riemann Hypothesis has been proved.",
+    "links": [
+      {
+        "label": "RH research",
+        "url": "https://translatepi.ai/RH"
+      }
+    ],
+    "next": "Register exact theorem statements and source-specific dependencies before verification."
+  },
+  {
+    "id": "rlt-lean",
+    "title": "RLT–Lean correspondence",
+    "group": "Verification infrastructure",
+    "status": "Ongoing development",
+    "summary": "Maintain independent RLT and Lean verification paths. Record exact statements, coordinate conventions, source pins, assumptions and evidence classifications. Distinguish independent reproduction, certificate verification and kernel-checked proof.",
+    "repository": "https://github.com/thinkthoughts/rlt",
+    "links": [
+      {
+        "label": "Formalization bridge",
+        "url": "https://formalize.now/"
+      },
+      {
+        "label": "RLT development",
+        "url": "https://rlt-fro.now/RLT/"
+      }
+    ],
+    "rlt_development": [
+      "Statement fidelity",
+      "Dependency closure",
+      "R/V/K evidence"
+    ],
+    "next": "Assess reusable correspondence requirements after each research milestone."
+  }
+]
