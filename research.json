@@ -27,6 +27,25 @@
           "url": "https://github.com/thinkthoughts/C-Star"
         }
       ]
+    },
+    {
+      "id": "qec",
+      "title": "QECLean",
+      "accent": "green",
+      "subtitle": "Formalization and verification in quantum error correction",
+      "description": "Independent verification research for quantum error-correcting codes, including cycle enumeration, boundary witnesses, homology and logical-weight bounds.",
+      "url": "qec.html",
+      "status": "Independent verification results: 90-qubit base complex, 46 verified boundary witnesses, 8 logical qubits, and X-sector minimum logical weight bounded by 8 ≤ dₓ ≤ 10.",
+      "repositories": [
+        {
+          "name": "RLT",
+          "url": "https://github.com/thinkthoughts/rlt"
+        },
+        {
+          "name": "RLT-QEC",
+          "url": "https://github.com/thinkthoughts/rlt/blob/main/docs/RLT-QEC-001.md"
+        }
+      ]
     }
   ]
 }
