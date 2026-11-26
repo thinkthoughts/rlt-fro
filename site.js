@@ -70,6 +70,12 @@ function render(entry) {
     a.append(p);
   }
 
+  if (entry.linkedin) {
+    const p = element('p');
+    p.append(link('LinkedIn article', entry.linkedin));
+    a.append(p);
+  }
+
   if (entry.repositories?.length) {
     a.append(element('p', 'Research repositories', 'white-2'));
 
