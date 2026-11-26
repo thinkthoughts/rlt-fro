@@ -1,0 +1,22 @@
+RLT-QRE-001 — Quantum resource estimation
+Sources:
+https://github.com/PsiQ/qref
+https://github.com/PsiQ/bartiq
+https://github.com/thinkthoughts/rlt
+
+Develop an independent verification specification for the passage from hierarchical quantum program descriptions to symbolic resource estimates. Identify the actual schema and graph validation guarantees, including the distinction between schema validity and semantic validity. Select one small example from the repositories and reconstruct its resource aggregation independently. Specify assumptions for symbolic substitution, repetitions, resource types, aggregation rules and evaluation domains; test preservation under the transformations actually implemented. Propose Lean theorems or independent certificates for a bounded fragment, and counterexamples to overly broad claims.
+
+Work read-only at pinned revisions. Register exact source claims, paths, commit hashes and assumptions. Distinguish written claims, mathematical proofs, tests, numerical evidence and physical observations. Inspect RLT’s actual capabilities; identify checks it can perform now, checks delegated to Lean or other tools, and new development. Do not claim verification without executed evidence. Provide numbered obligations, evidence status, a minimal reproducible example, commands, a staged roadmap and a continuation record usable by another AI. Report inaccessible sources and unexecuted checks explicitly. Do not modify upstream repositories.
+
+---
+
+RLT-QCVV-001 — Quantum characterization, verification and validation
+Sources:
+https://doi.org/10.1038/s41586-025-08820-7
+https://arxiv.org/abs/2404.17570
+https://github.com/PsiQ/2404_17570
+https://github.com/thinkthoughts/rlt
+
+Develop an independent verification specification for the experimental photonic quantum computing claims. Inventory the deposited files and map one published metric to its source data, estimator, selection criteria, uncertainty calculation and assumptions. Start with one tractable fidelity or interference-visibility result; independently reproduce it if sufficient data and methods are available. Distinguish conditional fidelity, heralding or acceptance probability, photon loss and unconditional performance; do not assume that multiplying fidelity by survival probability is a valid system metric without defining the model. Identify what is measured, inferred or extrapolated to fault tolerance. Propose a mathematical verification target and a separate data-correspondence check; document missing calibration, raw data or analysis details.
+
+Work read-only at pinned revisions. Register exact source claims, paths, commit hashes and assumptions. Distinguish written claims, mathematical proofs, tests, numerical evidence and physical observations. Inspect RLT’s actual capabilities; identify checks it can perform now, checks delegated to Lean or other tools, and new development. Do not claim verification without executed evidence. Provide numbered obligations, evidence status, a minimal reproducible example, commands, a staged roadmap and a continuation record usable by another AI. Report inaccessible sources and unexecuted checks explicitly. Do not modify upstream repositories.
