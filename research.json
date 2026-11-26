@@ -37,6 +37,7 @@
       "url": "/QECLean/",
       "status": "Independent verification results: 90-qubit base complex, 46 verified boundary witnesses, 8 logical qubits, and X-sector minimum logical weight bounded by 8 ≤ dₓ ≤ 10.",
       "tweet": "https://x.com/Precedent_Vice/status/2125822181150257503",
+      "linkedin": "https://www.linkedin.com/pulse/qeclean-formal-verification-quantum-error-correction-dan-hawkley-4l6uc/",
       "repositories": [
         {
           "name": "RLT",
