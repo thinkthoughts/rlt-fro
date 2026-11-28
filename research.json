@@ -48,6 +48,25 @@
           "url": "https://github.com/thinkthoughts/rlt/blob/main/docs/RLT-QEC-001.md"
         }
       ]
+    },
+    {
+      "id": "dsc",
+      "title": "Distributed Scientific Computing",
+      "accent": "green",
+      "subtitle": "Clean money systems and clean datacenters",
+      "description": "Independent CureCoin pilot for mathematical and engineering refinements with verifiable sustainability objectives.",
+      "url": "/DSC/",
+      "status": "Preliminary abstract-model checks and pinned source identity passed in operator-reported VPS reproduction; full acceptance pending.",
+      "repositories": [
+        {
+          "name": "RLT-DSC",
+          "url": "https://github.com/thinkthoughts/rlt-dsc/tree/rlt-dsc-001a"
+        },
+        {
+          "name": "CurecoinSource",
+          "url": "https://github.com/thinkthoughts/CurecoinSource"
+        }
+      ]
     }
   ]
 }
