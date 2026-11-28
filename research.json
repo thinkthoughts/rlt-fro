@@ -12,7 +12,7 @@
       "subtitle": "Formalization and verification in ocean carbon science",
       "description": "Independent verification research for open-source ocean modeling and marine carbon dioxide removal infrastructure.",
       "url": "https://carbondioxide.now/cworthy",
-      "status": "Research initiated; independent verification results not yet reported here.",
+      "status": "Correction, integration and CI branches observed across three forks; test outcomes and scientific acceptance require separate review.",
       "repositories": [
         {
           "name": "UCLA-ROMS",
@@ -108,9 +108,9 @@
       "title": "Fractal Neural Synthesis",
       "accent": "green",
       "subtitle": "DIY-FNS-003",
-      "description": "Procedural weight generation and energy per useful inference.",
+      "description": "Frozen RLT-FNS-001h candidate: repository reports 23 Lean theorems, 24 matched declarations, 14 negative probes, two positive controls and 74 manifest artifacts. Separate rational Vogel interval certificate. Independent release decision PENDING; energy and benchmark correspondence open.",
       "url": "https://immunesystem.now/pilots/FNS-003/",
-      "status": "Technical candidate; independent acceptance pending.",
+      "status": "Frozen RLT-FNS-001h: 23 Lean theorems reported; release decision PENDING.",
       "repositories": [
         {
           "name": "RLT-FNS",

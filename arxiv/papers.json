@@ -135,8 +135,8 @@
     "id": "FNS-investigation",
     "title": "Fractal Neural Synthesis",
     "group": "cs.LG",
-    "status": "technical candidate; independent acceptance pending",
-    "summary": "Procedural weight derivation and mathematical verification; reduced storage is distinct from energy savings. Paper identifier from project discussion; bibliographic review pending.",
+    "status": "frozen candidate; independent acceptance pending",
+    "summary": "Frozen RLT-FNS-001h candidate: repository reports 23 Lean theorems, 24 matched declarations, 14 negative probes, two positive controls and 74 manifest artifacts. Separate rational Vogel interval certificate. Independent release decision PENDING; energy and benchmark correspondence open.",
     "arxiv_id": "2611.32393",
     "project": "RLT-FNS",
     "links": [
@@ -147,6 +147,14 @@
       {
         "label": "DIY pilot",
         "url": "https://immunesystem.now/pilots/FNS-003/"
+      },
+      {
+        "label": "Frozen technical candidate",
+        "url": "https://github.com/thinkthoughts/rlt-fns/tree/7015035e8b78c3e75f428316a81d9b7f4701b6ff"
+      },
+      {
+        "label": "Pending release review",
+        "url": "https://github.com/thinkthoughts/rlt-fns/blob/7015035e8b78c3e75f428316a81d9b7f4701b6ff/claims/release-review.json"
       }
     ],
     "next": "Review frozen candidate and resource measurements separately."
