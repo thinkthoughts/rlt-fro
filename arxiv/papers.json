@@ -111,11 +111,12 @@
     "title": "KL divergence — numerical correspondence",
     "group": "cs.LG",
     "status": "investigation",
-    "summary": "Exact Gibbs inequality versus floating-point cancellation; paper identifier not yet recorded.",
+    "summary": "Research discussion links arXiv:2611.30835 to exact Gibbs inequality versus floating-point cancellation. Bibliographic identity and implementation correspondence remain to be independently reviewed.",
     "project": "RLT-KL-001",
     "rlt_development": [
       "Exact arithmetic and floating-point correspondence"
-    ]
+    ],
+    "arxiv_id": "2611.30835"
   },
   {
     "id": "attention-paper",
@@ -129,5 +130,41 @@
     "rlt_development": [
       "ATTN-01–05"
     ]
+  },
+  {
+    "id": "FNS-investigation",
+    "title": "Fractal Neural Synthesis",
+    "group": "cs.LG",
+    "status": "technical candidate; independent acceptance pending",
+    "summary": "Procedural weight derivation and mathematical verification; reduced storage is distinct from energy savings. Paper identifier from project discussion; bibliographic review pending.",
+    "arxiv_id": "2611.32393",
+    "project": "RLT-FNS",
+    "links": [
+      {
+        "label": "Research repository",
+        "url": "https://github.com/thinkthoughts/rlt-fns"
+      },
+      {
+        "label": "DIY pilot",
+        "url": "https://immunesystem.now/pilots/FNS-003/"
+      }
+    ],
+    "next": "Review frozen candidate and resource measurements separately."
+  },
+  {
+    "id": "QG-investigation",
+    "title": "Quantum gravity — convergence",
+    "group": "Physics",
+    "status": "specification published; proof obligations open",
+    "summary": "Sections 4.29–4.30 absolute convergence and Appendix E assumptions are candidate verification targets. Paper identifier from project discussion; bibliographic review pending.",
+    "arxiv_id": "2611.34924",
+    "project": "RLT-QG-001",
+    "links": [
+      {
+        "label": "Research specification",
+        "url": "https://rlt-fro.now/RLT-QG-001/"
+      }
+    ],
+    "next": "Check premises and convergence claims independently."
   }
 ]

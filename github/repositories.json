@@ -104,5 +104,43 @@
       "https://github.com/leanprover-community/mathlib4/pull/45343"
     ],
     "next": "Assess general multiplicative theorem."
+  },
+  {
+    "id": "curecoin",
+    "title": "CurecoinSource",
+    "group": "Independent",
+    "status": "preliminary model and identity checks; full acceptance pending",
+    "summary": "Initial independent DSC pilot. Scientific contribution accounting and payout logic cross external system boundaries.",
+    "upstream": "https://github.com/cygnusxi/CurecoinSource",
+    "fork": "https://github.com/thinkthoughts/CurecoinSource",
+    "source_pin": "a3eb106715638e316eb03af383dc27aad2e89536",
+    "project": "RLT-DSC-001",
+    "links": [
+      {
+        "label": "Research",
+        "url": "https://rlt-fro.now/DSC/"
+      },
+      {
+        "label": "DIY pilot",
+        "url": "https://immunesystem.now/pilots/DSC-004/"
+      }
+    ],
+    "next": "Review source harnesses and proposed engineering refinements."
+  },
+  {
+    "id": "rh-lean",
+    "title": "Riemann Hypothesis Lean formalization",
+    "group": "Independent",
+    "status": "independent research and outreach",
+    "summary": "Statement fidelity and proof replay across independent checkers; no new acceptance verdict in this reconciliation.",
+    "fork": "https://github.com/thinkthoughts/riemann-hypothesis-rlt",
+    "project": "RLT-RH-001",
+    "links": [
+      {
+        "label": "Verification specification",
+        "url": "https://rlt-fro.now/RLT-RH-001/"
+      }
+    ],
+    "next": "Compare pinned original and simplified declarations and proof dependencies."
   }
 ]

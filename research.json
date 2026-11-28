@@ -67,6 +67,71 @@
           "url": "https://github.com/thinkthoughts/CurecoinSource"
         }
       ]
+    },
+    {
+      "id": "geo",
+      "title": "Surface intersections and singularities",
+      "accent": "green",
+      "subtitle": "RLT-GEO-001",
+      "description": "Independent symbolic cross-cap investigation; global image-germ and formal proof obligations remain distinct.",
+      "url": "/RLT-GEO-001/",
+      "status": "Preliminary symbolic evidence; Lean cross-cap proof not established.",
+      "repositories": []
+    },
+    {
+      "id": "qg",
+      "title": "Quantum gravity — convergence",
+      "accent": "green",
+      "subtitle": "RLT-QG-001",
+      "description": "Absolute convergence and assumptions in a proposed mathematical model.",
+      "url": "/RLT-QG-001/",
+      "status": "Specification published; proof obligations open.",
+      "repositories": []
+    },
+    {
+      "id": "rh",
+      "title": "Riemann Hypothesis — independent verification",
+      "accent": "green",
+      "subtitle": "RLT-RH-001",
+      "description": "Statement fidelity, source identity and independent verification of proof artifacts.",
+      "url": "/RLT-RH-001/",
+      "status": "Verification specification; no new proof acceptance asserted.",
+      "repositories": [
+        {
+          "name": "RH research fork",
+          "url": "https://github.com/thinkthoughts/riemann-hypothesis-rlt"
+        }
+      ]
+    },
+    {
+      "id": "fns",
+      "title": "Fractal Neural Synthesis",
+      "accent": "green",
+      "subtitle": "DIY-FNS-003",
+      "description": "Procedural weight generation and energy per useful inference.",
+      "url": "https://immunesystem.now/pilots/FNS-003/",
+      "status": "Technical candidate; independent acceptance pending.",
+      "repositories": [
+        {
+          "name": "RLT-FNS",
+          "url": "https://github.com/thinkthoughts/rlt-fns"
+        }
+      ]
+    },
+    {
+      "id": "ti",
+      "title": "True Intelligence",
+      "accent": "green",
+      "subtitle": "DIY-TI-001",
+      "description": "Source attribution, measurement correspondence and system viability.",
+      "url": "https://immunesystem.now/pilots/TI-001/",
+      "status": "Independent development; collaboration proposed.",
+      "repositories": [
+        {
+          "name": "RLT-TI",
+          "url": "https://github.com/thinkthoughts/rlt-ti"
+        }
+      ]
     }
   ]
 }

@@ -7,3 +7,5 @@ Edit each JSON array to add or revise records. Stable `id`, `title`, `group`, `s
 Seed data is based on prior project discussions, not a fresh source audit. Candidate arXiv IDs and categories require confirmation; unconfirmed paper titles are not supplied. Repository links and status should be reviewed as evidence becomes available. No claims of newly verified mathematical results are made.
 
 Serve over HTTP(S), not file://, to load JSON. For local testing from the full repository: python3 -m http.server 8000. Visit /arxiv/, /github/, /dan/. Test search, filter, links and mobile layout. No external JS or API dependencies.
+
+See [RLT-ORG-001](RLT-ORG-001.md) for the initial research and outreach reconciliation and its scope.

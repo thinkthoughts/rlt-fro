@@ -93,5 +93,70 @@
     "status": "proposed",
     "summary": "Engineering specification and evidence registration.",
     "next": "Recover repository identity and JSON conventions."
+  },
+  {
+    "id": "rlt-dsc",
+    "title": "Distributed Scientific Computing",
+    "group": "Internal",
+    "status": "research branch; preliminary checks",
+    "summary": "Clean money systems and clean datacenters. Six regression tests, abstract model and source identity checks passed in operator-reported VPS reproduction; acceptance pending.",
+    "repository": "https://github.com/thinkthoughts/rlt-dsc",
+    "project": "RLT-DSC-001",
+    "links": [
+      {
+        "label": "Research branch",
+        "url": "https://github.com/thinkthoughts/rlt-dsc/tree/rlt-dsc-001a"
+      },
+      {
+        "label": "Research page",
+        "url": "https://rlt-fro.now/DSC/"
+      }
+    ],
+    "next": "Independent source harness reproduction and proof development."
+  },
+  {
+    "id": "rlt-fns",
+    "title": "Fractal Neural Synthesis",
+    "group": "Internal",
+    "status": "technical candidate; acceptance pending",
+    "summary": "Procedural weight derivation, mathematical specification and reproducibility; no energy savings established.",
+    "repository": "https://github.com/thinkthoughts/rlt-fns",
+    "links": [
+      {
+        "label": "DIY pilot",
+        "url": "https://immunesystem.now/pilots/FNS-003/"
+      }
+    ],
+    "next": "Independent review of frozen candidate."
+  },
+  {
+    "id": "rlt-ti",
+    "title": "True Intelligence",
+    "group": "Internal",
+    "status": "independent development; collaboration proposed",
+    "summary": "Cross-domain synchronization, magnetic source attribution, measurement and system viability.",
+    "repository": "https://github.com/thinkthoughts/rlt-ti",
+    "links": [
+      {
+        "label": "DIY pilot",
+        "url": "https://immunesystem.now/pilots/TI-001/"
+      }
+    ],
+    "next": "Review mathematical evidence and experimental obligations."
+  },
+  {
+    "id": "rlt-diy",
+    "title": "Develop It Yourself",
+    "group": "Internal",
+    "status": "active methodology and pilot register",
+    "summary": "Independent scientific engineering, leading specifications and acceptance boundaries.",
+    "repository": "https://github.com/thinkthoughts/rlt-diy",
+    "links": [
+      {
+        "label": "DIY home",
+        "url": "https://immunesystem.now/"
+      }
+    ],
+    "next": "Maintain foundation-to-pilot correspondence."
   }
 ]
