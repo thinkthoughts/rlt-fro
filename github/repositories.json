@@ -60,8 +60,8 @@
     "id": "bb-distance-lean",
     "title": "bb-distance-lean",
     "group": "Independent",
-    "status": "specifications registered on branch",
-    "summary": "Weight-8 base logical floor; census completeness must be independently established.",
+    "status": "RLT-QEC-001/002a/002b accepted and merged (recorded)",
+    "summary": "Accepted and merged RLT-QEC-001/002a/002b records: 46 cycles below weight 8 and 46 boundary witnesses, ranks 41 and 41, homology dimension 8, and 8 ≤ d_X ≤ 10 in the 90-qubit base X sector. Lower bound reviewed completeness (R); upper bound checked certificate (V). Exact minimum and full Bravyi360 independent verification remain open.",
     "upstream": "https://github.com/QECLean/bb-distance-lean",
     "fork": "https://github.com/thinkthoughts/bb-distance-lean",
     "project": "RLT-QEC-001",
@@ -70,12 +70,24 @@
       {
         "label": "Specification branch",
         "url": "https://github.com/thinkthoughts/rlt/blob/rlt-qec-001/docs/RLT-QEC-001.md"
+      },
+      {
+        "label": "Accepted census record",
+        "url": "https://github.com/thinkthoughts/rlt/blob/58f1d40b3e07fb0e2681e5208da319a1f388a7ce/docs/RLT-QEC-002a.md"
+      },
+      {
+        "label": "Accepted witness record",
+        "url": "https://github.com/thinkthoughts/rlt/blob/58f1d40b3e07fb0e2681e5208da319a1f388a7ce/docs/RLT-QEC-002b.md"
+      },
+      {
+        "label": "Current fork README (not original source pin)",
+        "url": "https://github.com/thinkthoughts/bb-distance-lean/blob/5725a2328a41248294d3e6e84250770db7daf51b/README.md"
       }
     ],
     "rlt_development": [
       "GF2-01–06"
     ],
-    "next": "Audit ac1d378; independently enumerate cycles of weight less than eight."
+    "next": "Extended cycle census and exact X-sector minimum; keep full-code distance separate."
   },
   {
     "id": "intelligenceregulation",

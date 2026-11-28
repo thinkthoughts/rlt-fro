@@ -141,16 +141,24 @@
     "id": "rlt-ti",
     "title": "True Intelligence",
     "group": "Internal",
-    "status": "independent development; collaboration proposed",
-    "summary": "Cross-domain synchronization, magnetic source attribution, measurement and system viability.",
+    "status": "finite checks recorded; formal and experimental acceptance pending",
+    "summary": "Pinned repository records source hash/size and finite exact checks for TI-02,03,04,05,09,12,13,14. Candidate Lean infrastructure present; checked execution evidence requires reconciliation. No physical validation.",
     "repository": "https://github.com/thinkthoughts/rlt-ti",
     "links": [
       {
         "label": "DIY pilot",
         "url": "https://immunesystem.now/pilots/TI-001/"
+      },
+      {
+        "label": "Pinned finite verification record",
+        "url": "https://github.com/thinkthoughts/rlt-ti/blob/31dd6a8ace16f895f4889d4754a3abc9e51ab1e0/evidence/check-output.txt"
+      },
+      {
+        "label": "Lean setup and limitations",
+        "url": "https://github.com/thinkthoughts/rlt-ti/blob/31dd6a8ace16f895f4889d4754a3abc9e51ab1e0/LEAN-SETUP.md"
       }
     ],
-    "next": "Review mathematical evidence and experimental obligations."
+    "next": "Reconcile pinned Lean execution record, source correspondence and experimental obligations."
   },
   {
     "id": "rlt-diy",

@@ -35,7 +35,7 @@
       "subtitle": "Formalization and verification in quantum error correction",
       "description": "Independent verification research for quantum error-correcting codes, including cycle enumeration, boundary witnesses, homology and logical-weight bounds.",
       "url": "/QECLean/",
-      "status": "Independent verification results: 90-qubit base complex, 46 verified boundary witnesses, 8 logical qubits, and X-sector minimum logical weight bounded by 8 ≤ dₓ ≤ 10.",
+      "status": "Accepted and merged RLT-QEC-001/002a/002b records: 46 cycles below weight 8 and 46 boundary witnesses, ranks 41 and 41, homology dimension 8, and 8 ≤ d_X ≤ 10 in the 90-qubit base X sector. Lower bound reviewed completeness (R); upper bound checked certificate (V). Exact minimum and full Bravyi360 independent verification remain open.",
       "tweet": "https://x.com/Precedent_Vice/status/2125822181150257503",
       "linkedin": "https://www.linkedin.com/pulse/qeclean-formal-verification-quantum-error-correction-dan-hawkley-4l6uc/",
       "repositories": [
@@ -123,9 +123,9 @@
       "title": "True Intelligence",
       "accent": "green",
       "subtitle": "DIY-TI-001",
-      "description": "Source attribution, measurement correspondence and system viability.",
+      "description": "Pinned repository records source hash/size and finite exact checks for TI-02,03,04,05,09,12,13,14. Candidate Lean infrastructure present; checked execution evidence requires reconciliation. No physical validation.",
       "url": "https://immunesystem.now/pilots/TI-001/",
-      "status": "Independent development; collaboration proposed.",
+      "status": "finite checks recorded; formal and experimental acceptance pending",
       "repositories": [
         {
           "name": "RLT-TI",

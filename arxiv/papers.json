@@ -95,8 +95,8 @@
     "id": "QEC-paper",
     "title": "QECLean / Bravyi360",
     "group": "quant-ph",
-    "status": "specifications registered on branch",
-    "summary": "Independent verification of the weight-8 base logical floor is the initial target, distinct from the distance-24 result.",
+    "status": "RLT-QEC-001/002a/002b accepted and merged (recorded)",
+    "summary": "Accepted and merged RLT-QEC-001/002a/002b records: 46 cycles below weight 8 and 46 boundary witnesses, ranks 41 and 41, homology dimension 8, and 8 ≤ d_X ≤ 10 in the 90-qubit base X sector. Lower bound reviewed completeness (R); upper bound checked certificate (V). Exact minimum and full Bravyi360 independent verification remain open.",
     "arxiv_id": "2611.21236",
     "project": "RLT-QEC-001",
     "tweet_urls": [],
@@ -104,7 +104,17 @@
     "rlt_development": [
       "GF2-01–06"
     ],
-    "next": "Confirm paper identity and audit specification branch."
+    "next": "Extended cycle census and exact X-sector minimum; keep full-code distance separate.",
+    "links": [
+      {
+        "label": "Accepted census record",
+        "url": "https://github.com/thinkthoughts/rlt/blob/58f1d40b3e07fb0e2681e5208da319a1f388a7ce/docs/RLT-QEC-002a.md"
+      },
+      {
+        "label": "Accepted witness record",
+        "url": "https://github.com/thinkthoughts/rlt/blob/58f1d40b3e07fb0e2681e5208da319a1f388a7ce/docs/RLT-QEC-002b.md"
+      }
+    ]
   },
   {
     "id": "KL-investigation",
