@@ -3,8 +3,8 @@
     "id": "ucla-roms",
     "title": "UCLA-ROMS",
     "group": "FRO",
-    "status": "development and CI branches observed; acceptance not established",
-    "summary": "Integration-010 and CI base-SHA validation correction branches observed. CI outcomes and scientific acceptance not independently checked in this reconciliation.",
+    "status": "CI-010 workflow success; later base-SHA fix untested in retrieved records",
+    "summary": "At c5ea8ee, prepare, GNU/IFX compile and GNU/IFX pytest jobs succeeded; two container build jobs and cleanup skipped. No workflow runs returned for later 79b85c8 base-SHA validation fix.",
     "fork": "https://github.com/thinkthoughts/ucla-roms",
     "links": [
       {
@@ -14,16 +14,20 @@
       {
         "label": "Selected pinned development commit",
         "url": "https://github.com/thinkthoughts/ucla-roms/commit/79b85c8afb02a4abf078405efb22b38db10dc6d7"
+      },
+      {
+        "label": "CI-010 containerized CI",
+        "url": "https://github.com/thinkthoughts/ucla-roms/actions/runs/45288508832"
       }
     ],
-    "next": "Inspect correction diffs, pinned CI outcomes and scientific review separately."
+    "next": "Verify later base-SHA fix and exact baseline output correspondence."
   },
   {
     "id": "roms-tools",
     "title": "ROMS-Tools",
     "group": "FRO",
-    "status": "development and CI branches observed; acceptance not established",
-    "summary": "Correction branches for CDR units, CO₂ scale, stable stretching, tiling and zero theta; fork-only CI branches observed. CI outcomes and scientific acceptance not independently checked in this reconciliation.",
+    "status": "Five correction CI runs failed; common failure pattern",
+    "summary": "Across five CI-011 correction branches, each has six successful jobs and two failed jobs (streaming and GLORYS regional invariance). Shared failure pattern observed; cause and baseline correspondence unresolved.",
     "fork": "https://github.com/thinkthoughts/roms-tools",
     "links": [
       {
@@ -33,16 +37,36 @@
       {
         "label": "Selected pinned development commit",
         "url": "https://github.com/thinkthoughts/roms-tools/commit/899834a38b6bd8af25643aa47a0ecb81fd6b9955"
+      },
+      {
+        "label": "CI-011 cdr-units",
+        "url": "https://github.com/thinkthoughts/roms-tools/actions/runs/45311055444"
+      },
+      {
+        "label": "CI-011 co2-scale",
+        "url": "https://github.com/thinkthoughts/roms-tools/actions/runs/45311051508"
+      },
+      {
+        "label": "CI-011 stable-stretching",
+        "url": "https://github.com/thinkthoughts/roms-tools/actions/runs/45311060626"
+      },
+      {
+        "label": "CI-011 tiling",
+        "url": "https://github.com/thinkthoughts/roms-tools/actions/runs/45311049166"
+      },
+      {
+        "label": "CI-011 zero-theta",
+        "url": "https://github.com/thinkthoughts/roms-tools/actions/runs/45311058344"
       }
     ],
-    "next": "Inspect correction diffs, pinned CI outcomes and scientific review separately."
+    "next": "Inspect logs and reproduce against a pinned unmodified baseline under equivalent conditions."
   },
   {
     "id": "C-Star",
     "title": "C-Star",
     "group": "FRO",
-    "status": "development and CI branches observed; acceptance not established",
-    "summary": "Generated tiling, integration-010 and fork-only CI-011 branches observed. CI outcomes and scientific acceptance not independently checked in this reconciliation.",
+    "status": "CI-011 integration passed; unit workflow cancelled",
+    "summary": "At 7e2e938, three integration jobs and three Ubuntu unit jobs succeeded; macOS Python 3.14 unit job cancelled. Full matrix acceptance pending.",
     "fork": "https://github.com/thinkthoughts/C-Star",
     "links": [
       {
@@ -52,9 +76,17 @@
       {
         "label": "Selected pinned development commit",
         "url": "https://github.com/thinkthoughts/C-Star/commit/7e2e938f937b275dafcfd8fb6975c162a25d4b0c"
+      },
+      {
+        "label": "CI-011 integration",
+        "url": "https://github.com/thinkthoughts/C-Star/actions/runs/45311065125"
+      },
+      {
+        "label": "CI-011 unit tests",
+        "url": "https://github.com/thinkthoughts/C-Star/actions/runs/45311065137"
       }
     ],
-    "next": "Inspect correction diffs, pinned CI outcomes and scientific review separately."
+    "next": "Complete cancelled macOS unit test and compare correction-specific evidence."
   },
   {
     "id": "bb-distance-lean",

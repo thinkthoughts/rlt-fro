@@ -12,7 +12,7 @@
       "subtitle": "Formalization and verification in ocean carbon science",
       "description": "Independent verification research for open-source ocean modeling and marine carbon dioxide removal infrastructure.",
       "url": "https://carbondioxide.now/cworthy",
-      "status": "Correction, integration and CI branches observed across three forks; test outcomes and scientific acceptance require separate review.",
+      "status": "C-Star CI-011 integration passed; macOS unit job cancelled. ROMS-Tools five correction runs share two failed jobs each. UCLA-ROMS CI-010 workflow succeeded with three skipped jobs; later fix untested in retrieved records. Scientific acceptance open.",
       "repositories": [
         {
           "name": "UCLA-ROMS",
