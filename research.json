@@ -56,7 +56,7 @@
       "subtitle": "Clean money systems and clean datacenters",
       "description": "Independent CureCoin pilot for mathematical and engineering refinements with verifiable sustainability objectives.",
       "url": "/DSC/",
-      "status": "Preliminary abstract-model checks and pinned source identity passed in operator-reported VPS reproduction; full acceptance pending.",
+      "status": "DSC-002 reports Lean V1–V5 model proofs and 6,000 agreeing linked-source/Lean/Python staking-rate cases; six review findings open, independent replay and acceptance pending.",
       "repositories": [
         {
           "name": "RLT-DSC",
@@ -65,6 +65,14 @@
         {
           "name": "CurecoinSource",
           "url": "https://github.com/thinkthoughts/CurecoinSource"
+        },
+        {
+          "name": "DSC-002 candidate",
+          "url": "https://github.com/thinkthoughts/CurecoinSource/tree/af672cb71d3377137f4ba459268c997929591923"
+        },
+        {
+          "name": "Preliminary review",
+          "url": "https://github.com/thinkthoughts/rlt-dsc/blob/b710b91804044f54d86ab3bebb3d64155d53f6e6/docs/RLT-DSC-002-REVIEW.md"
         }
       ]
     },

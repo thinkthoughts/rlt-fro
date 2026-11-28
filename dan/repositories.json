@@ -110,8 +110,8 @@
     "id": "rlt-dsc",
     "title": "Distributed Scientific Computing",
     "group": "Internal",
-    "status": "research branch; preliminary checks",
-    "summary": "Clean money systems and clean datacenters. Six regression tests, abstract model and source identity checks passed in operator-reported VPS reproduction; acceptance pending.",
+    "status": "DSC-002 candidate; independent acceptance pending",
+    "summary": "DSC-002 reports Lean V1–V5 model proofs and 6,000 agreeing linked-source/Lean/Python staking-rate cases; six review findings open, independent replay and acceptance pending. No consensus change or sustainability improvement accepted.",
     "repository": "https://github.com/thinkthoughts/rlt-dsc",
     "project": "RLT-DSC-001",
     "links": [
@@ -122,9 +122,21 @@
       {
         "label": "Research page",
         "url": "https://rlt-fro.now/DSC/"
+      },
+      {
+        "label": "DSC-002 research candidate",
+        "url": "https://github.com/thinkthoughts/CurecoinSource/tree/af672cb71d3377137f4ba459268c997929591923"
+      },
+      {
+        "label": "Unmerged proposals",
+        "url": "https://github.com/thinkthoughts/CurecoinSource/tree/3b6f6ae5b32c7d3283a3aa1c448bfc21b6052139"
+      },
+      {
+        "label": "Independent preliminary review",
+        "url": "https://github.com/thinkthoughts/rlt-dsc/blob/b710b91804044f54d86ab3bebb3d64155d53f6e6/docs/RLT-DSC-002-REVIEW.md"
       }
     ],
-    "next": "Independent source harness reproduction and proof development."
+    "next": "Resolve F1–F6; independently replay Lean and source evidence; specify read-only historical chain replay."
   },
   {
     "id": "rlt-fns",

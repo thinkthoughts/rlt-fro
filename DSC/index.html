@@ -3,17 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>RLT-DSC-001 | RLT-FRO</title>
+<title>RLT-DSC | RLT-FRO</title>
 <meta name="description" content="Distributed scientific computing, clean money systems and clean datacenters.">
 <link rel="canonical" href="https://rlt-fro.now/DSC/">
 <style>
-:root { color-scheme: light dark; font-family: system-ui, sans-serif; line-height: 1.65; } body { max-width: 760px; margin: 0 auto; padding: 2rem 1.25rem; } h1 { font-size: 1.8rem; line-height: 1.25; font-weight: 550; } h2 { font-size: 1.2rem; } nav, footer, .meta { font-size: .9rem; } a { text-underline-offset: .2em; } footer { margin-top: 3rem; border-top: 1px solid #8886; padding-top: 1rem; } </style>
+:root { color-scheme: light dark; font-family: system-ui, sans-serif; line-height: 1.65; } body { max-width: 760px; margin: 0 auto; padding: 2rem 1.25rem; } h1 { font-size: 1.8rem; line-height: 1.25; font-weight: 550; } h2 { font-size: 1.2rem; } nav, footer, .meta { font-size: .9rem; } a { text-underline-offset: .2em; } footer { margin-top: 3rem; border-top: 1px solid #8886; padding-top: 1rem; } .table-wrap { overflow-x: auto; } table { border-collapse: collapse; width: 100%; font-size: .9rem; } th, td { padding: .55rem; border-bottom: 1px solid #8886; text-align: left; vertical-align: top; } caption { text-align: left; font-weight: 600; } </style>
 </head>
 <body>
 <nav><a href="/" style="color: gold;">RLT-FRO</a> / Research / DSC</nav>
 <main>
 <h1 style="color: gold;">RLT-DSC — Distributed Scientific Computing</h1>
-<p class="meta">November 28, 2026 · Independent DIY research · Initial specification</p>
+<p class="meta">November 28, 2026 · Independent DIY research · DSC-002 candidate review</p>
 <p>RLT-FRO seeks to contribute mathematical and engineering refinements to CureCoin and other distributed scientific computing systems to the extent that such development verifiably optimizes toward sustainability on the Sun's Earth now.</p>
 <p>Clean money systems and clean datacenters are initial, nonexclusive research directions of the DIY initiative at <a href="https://immunesystem.now/">immunesystem.now</a>: #reparationsNow — PiπΠ — expand imaginations, extend care, resist illiteracy.</p>
 <h2>CureCoin: an initial pilot</h2>
@@ -27,13 +27,39 @@
 <li>V4 — Conditional signed 64-bit arithmetic safety; reachable-state safety remains open.</li>
 <li>V5 — Money-supply bookkeeping: synthetic ledger check; general proof and historical replay remain open.</li>
 </ul>
-<p>The operator-reported VPS reproduction passed six regression tests, the abstract model and provisional registry checks, and pinned source identity checks. The acceptance gate returned 2 (pending), as designed. No full source harness reproduction, checked mathematical proof, or demonstrated sustainability improvement is claimed.</p>
-<h2>Mathematical and engineering development</h2>
-<p>Potential refinements include registration validation, monetary specification correspondence, arithmetic bounds, deterministic consensus behavior, auditable scientific contribution accounting, and resource-to-useful-work measurement. Each requires its own evidence and review before an upstream contribution.</p>
+<p>The operator-reported VPS reproduction passed six regression tests, the abstract model and provisional registry checks, and pinned source identity checks. The acceptance gate returned 2 (pending), as designed. At the 001c checkpoint, full source harness reproduction and formal proof acceptance remained pending. The later DSC-002 candidate is described below.</p>
+<h2>RLT-DSC-002 — Verification refinement</h2>
+<p><strong>Candidate evidence; full acceptance pending.</strong> The pinned research package reports Lean 4.15 model proofs for V1–V5, a baseline node build and 6,000 agreeing staking-rate cases across the linked C++ function, Lean model and Python model. The separate companion review inspected the source modules, selected axiom report and proposal diffs; independent Lean and C++ execution has not yet occurred.</p>
+<div class="table-wrap"><table><caption>Mathematical models and correspondence boundaries</caption><thead><tr><th scope="col">Claim</th><th scope="col">Candidate result</th><th scope="col">Open obligation</th></tr></thead><tbody>
+<tr><th scope="row">V1</th><td>Ordered registration round trip, counts and marker lemmas</td><td>Arbitrary-permutation decoder theorem; deployed Research Core correspondence</td></tr>
+<tr><th scope="row">V2</th><td>Exact scheduled PoW subsidy sum: 26,265,418.5 CURE through height 257,322</td><td>Actual historical issuance and chain replay</td></tr>
+<tr><th scope="row">V3</th><td>Model termination, monotonicity and post-fork bounds of 47,500–520,000 base units per coin-year (4.75–52% nominal rate)</td><td>Independent compiled correspondence and historical targets</td></tr>
+<tr><th scope="row">V4</th><td>Conditional signed 64-bit product safety; worst-case post-fork threshold 537,492,542,940 coin-days</td><td>Reachability, signed arithmetic and input premises</td></tr>
+<tr><th scope="row">V5</th><td>Integer ledger telescoping and conditional fee accounting</td><td>Actual chain and implementation correspondence</td></tr>
+</tbody></table></div>
+<h2>Engineering proposals</h2>
+<p>Four proposed patches are isolated on an unmerged branch. Two further items are design notes. None has been accepted or submitted upstream by this review.</p>
+<div class="table-wrap"><table><thead><tr><th scope="col">ID</th><th scope="col">Proposal</th><th scope="col">Review boundary</th></tr></thead><tbody>
+<tr><th scope="row">P1</th><td>Printable ASCII wallet registration policy</td><td>Confirm username requirements and avoid unnecessary exclusion</td></tr>
+<tr><th scope="row">P2</th><td>Read-only supply RPC</td><td>Review units, locking, cost and interface</td></tr>
+<tr><th scope="row">P3</th><td>Comments and README corrections</td><td>Exact terminology</td></tr>
+<tr><th scope="row">P4</th><td>Overflow-safe reward arithmetic</td><td><strong>Consensus-sensitive; keep unmerged</strong></td></tr>
+<tr><th scope="row">P5</th><td>Height-explicit rules (design)</td><td>Historical replay and consensus review</td></tr>
+<tr><th scope="row">P6</th><td>Specification-linked CI (design)</td><td>Priority: fail-closed reproducible checks</td></tr>
+</tbody></table></div>
+<h2>Independent review — DSC-002a</h2>
+<p>Six findings are registered for resolution: F1 permutation-invariant decoding; F2 scheduled subsidy versus actual issuance; F3 strict declaration and axiom gates; F4 conditional overflow reachability; F5 registration-adjusted supply versus spendability; F6 sustainability measurement and comparable workloads. The preliminary review retains the candidate without accepting it. No formal proof replay, external sustainability source verification or physical measurement was performed in this review.</p>
 <h2>Clean money systems and clean datacenters</h2>
-<p>Monetary conservation, useful scientific computation, and sustainability are distinct specifications. Energy, hardware lifecycle, cooling, water, emissions and scientific outcomes require measured boundaries, explicit comparisons and uncertainty. Neither a valid transaction nor increased computation alone establishes an environmental benefit.</p>
+<p>Monetary conservation, scientific contribution and resource consumption remain distinct specifications. The candidate sustainability report proposes an auditable distribution certificate (D1), registration-output-adjusted accounting (D2), and opt-in energy and carbon measurement (S1). A proposed functional-unit carbon intensity calculation is (E × I + M) / R, with measured energy E, carbon intensity I, allocated embodied emissions M and comparable work R. Measurement boundaries and uncertainty are required. Folding energy dominance and sustainability improvements remain unmeasured hypotheses, not established findings.</p>
+<p>Next: verification hardening, independent proof and source replay, and a separately specified read-only historical chain replay. No live wallet, funds or consensus changes are authorized.</p>
 <h2>Research records</h2>
 <ul>
+<li><a href="https://github.com/thinkthoughts/CurecoinSource/tree/af672cb71d3377137f4ba459268c997929591923">DSC-002 research candidate</a></li>
+<li><a href="https://github.com/thinkthoughts/CurecoinSource/tree/3b6f6ae5b32c7d3283a3aa1c448bfc21b6052139">Unmerged proposals</a></li>
+<li><a href="https://github.com/thinkthoughts/rlt-dsc/blob/b710b91804044f54d86ab3bebb3d64155d53f6e6/docs/RLT-DSC-002-REVIEW.md">Independent preliminary review</a></li>
+<li><a href="https://github.com/thinkthoughts/CurecoinSource/blob/af672cb71d3377137f4ba459268c997929591923/RLT-DSC-002-VERIFICATION-REFINEMENT.md">Verification refinement report</a></li>
+<li><a href="https://github.com/thinkthoughts/CurecoinSource/blob/af672cb71d3377137f4ba459268c997929591923/RLT-DSC-002-SUSTAINABILITY-CORRESPONDENCE.md">Sustainability correspondence report</a></li>
+<li><a href="https://github.com/thinkthoughts/rlt-dsc/blob/b710b91804044f54d86ab3bebb3d64155d53f6e6/research/dsc-002/manifest.json">Candidate manifest</a></li>
 <li><a href="https://github.com/thinkthoughts/rlt-dsc/tree/e237cfe6f2f7d039d9f60947eef1d4600ea6ae1d">Independent RLT-DSC research branch (pinned)</a></li>
 <li><a href="https://github.com/thinkthoughts/rlt-dsc/blob/e237cfe6f2f7d039d9f60947eef1d4600ea6ae1d/docs/RLT-DSC-001b.md">Candidate specifications and review obligations</a></li>
 <li><a href="https://github.com/thinkthoughts/rlt-dsc/blob/e237cfe6f2f7d039d9f60947eef1d4600ea6ae1d/research/dsc-001/vps-reproduction.md">VPS reproduction record</a></li>
