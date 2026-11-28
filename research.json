@@ -95,7 +95,7 @@
       "subtitle": "RLT-RH-001",
       "description": "Statement fidelity, source identity and independent verification of proof artifacts.",
       "url": "/RLT-RH-001/",
-      "status": "Verification specification; no new proof acceptance asserted.",
+      "status": "Community edition and comparator policy inspected; independent comparison and replay pending.",
       "repositories": [
         {
           "name": "RH research fork",
@@ -130,6 +130,25 @@
         {
           "name": "RLT-TI",
           "url": "https://github.com/thinkthoughts/rlt-ti"
+        }
+      ]
+    },
+    {
+      "id": "rlt",
+      "title": "Reading Level Test",
+      "accent": "green",
+      "subtitle": "Independent proof checker and registered definitions",
+      "description": "RLT-PROVER-002 release audit records 387 tests, 126 accepted discovery theorems and seven unconditional ROBINSON-Q certificates, with selected Lean correspondence and fresh kernel replay. RLT-DEF-001a audit records independent PASS WITH NON-BLOCKING NOTES, with H1 repaired and follow-ups documented. Counts apply to audited milestones, not a fresh test of current main.",
+      "url": "https://github.com/thinkthoughts/rlt",
+      "status": "Audited release milestones; current HEAD not replayed here.",
+      "repositories": [
+        {
+          "name": "RLT",
+          "url": "https://github.com/thinkthoughts/rlt"
+        },
+        {
+          "name": "Release audit",
+          "url": "https://github.com/thinkthoughts/rlt/blob/58f1d40b3e07fb0e2681e5208da319a1f388a7ce/docs/RLT-PROVER-002-AUDIT.md"
         }
       ]
     }

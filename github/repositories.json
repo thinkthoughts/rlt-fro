@@ -155,16 +155,20 @@
     "id": "rh-lean",
     "title": "Riemann Hypothesis Lean formalization",
     "group": "Independent",
-    "status": "independent research and outreach",
-    "summary": "Statement fidelity and proof replay across independent checkers; no new acceptance verdict in this reconciliation.",
+    "status": "community edition inspected; independent comparison pending",
+    "summary": "Current fork README describes a condensed community edition based on grh-lean 72fead102f663d5c7a407964a13dc0cf9d977207, five RH/Dirichlet-L theorem statements, and comparator checks for statement identity, standard axioms, Lean and nanoda. No independent comparator run or proof acceptance performed here.",
     "fork": "https://github.com/thinkthoughts/riemann-hypothesis-rlt",
     "project": "RLT-RH-001",
     "links": [
       {
         "label": "Verification specification",
         "url": "https://rlt-fro.now/RLT-RH-001/"
+      },
+      {
+        "label": "Pinned fork README",
+        "url": "https://github.com/thinkthoughts/riemann-hypothesis-rlt/blob/8c828edadfd659acdec2107f13ecf010284f919a/README.md"
       }
     ],
-    "next": "Compare pinned original and simplified declarations and proof dependencies."
+    "next": "Obtain immutable original and readable edition pins; compare exact statements, dependencies and checker records outside upstream proof tree."
   }
 ]

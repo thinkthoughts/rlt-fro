@@ -3,19 +3,31 @@
     "id": "rlt",
     "title": "Reading Level Test",
     "group": "Internal",
-    "status": "active",
-    "summary": "Independent theorem prover and certificate verification.",
+    "status": "released prover milestones and independent registry audit recorded",
+    "summary": "RLT-PROVER-002 release audit records 387 tests, 126 accepted discovery theorems and seven unconditional ROBINSON-Q certificates, with selected Lean correspondence and fresh kernel replay. RLT-DEF-001a audit records independent PASS WITH NON-BLOCKING NOTES, with H1 repaired and follow-ups documented. Counts apply to audited milestones, not a fresh test of current main.",
     "repository": "https://github.com/thinkthoughts/rlt",
     "leading_specifications": [
       "RLT-QEC-001b",
-      "RLT-ALG-001"
+      "RLT-ALG-001",
+      "RLT-PROVER-002",
+      "RLT-DEF-001a"
     ],
     "rlt_development": [
       "Registered definitions and theorem discovery",
       "Binary algebra",
       "Natural number arithmetic"
     ],
-    "next": "Audit QEC documentation and prioritize reusable primitives."
+    "next": "Reconcile later documentation/CI milestones and follow-up audit notes; no kernel expansion assumed.",
+    "links": [
+      {
+        "label": "Prover release audit",
+        "url": "https://github.com/thinkthoughts/rlt/blob/58f1d40b3e07fb0e2681e5208da319a1f388a7ce/docs/RLT-PROVER-002-AUDIT.md"
+      },
+      {
+        "label": "Definition registry independent audit",
+        "url": "https://github.com/thinkthoughts/rlt/blob/58f1d40b3e07fb0e2681e5208da319a1f388a7ce/docs/RLT-DEF-001a-AUDIT.md"
+      }
+    ]
   },
   {
     "id": "specification-grammar",
